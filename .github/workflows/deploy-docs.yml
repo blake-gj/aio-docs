@@ -1,0 +1,36 @@
+name: Deploy MkDocs
+on:
+  push:
+    branches:
+      - gh-pages
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material
+          pip install pillow cairosvg
+          pip install mkdocs-git-revision-date-localized-plugin
+          pip install mkdocs-redirects
+          pip install mkdocs-macros-plugin
+          pip install mkdocs-pdf-export-plugin
+      
+      - name: Build and deploy
+        run: mkdocs build
+
+      - name: Upload artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
