@@ -1,6 +1,8 @@
 site_name: Aeromat.io
 site_description: Technical Resource Platform for Aeromat Plastics
-site_url: https://docs.aeromatplastics.com  # Update this when you have the final URL
+site_url: https://blake-gj.github.io/aio-docs/  # Replace with your actual GitHub Pages URL
+repo_url: https://github.com/blake-gj/aio-docs  # Replace with your actual repository URL
+edit_uri: edit/gh-pages/docs/                             # Assumes your source is in the main branch
 
 theme:
   name: material

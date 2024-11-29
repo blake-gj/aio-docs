@@ -4,12 +4,23 @@ on:
     branches:
       - gh-pages
 
+# Configure permissions for the GITHUB_TOKEN
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+  deployments: write
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    # Add concurrency to prevent parallel deployments
+    concurrency:
+      group: pages
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,4 +44,5 @@ jobs:
           path: ./site
 
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
