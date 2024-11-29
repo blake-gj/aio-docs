@@ -1,0 +1,13 @@
+# Ignore build output
+site/
+
+# Ignore temporary files
+*.log
+*.pyc
+__pycache__/
+.DS_Store
+
+# Ignore IDE or editor settings
+.idea/
+.vscode/
+.DS_Store

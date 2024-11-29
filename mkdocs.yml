@@ -1,8 +1,167 @@
-site_name: My Docs
+site_name: Aeromat.io
+site_description: Technical Resource Platform for Aeromat Plastics
+site_url: https://docs.aeromatplastics.com  # Update this when you have the final URL
 
 theme:
   name: material
   palette:
-    primary: 'indigo'
-    accent: 'amber'
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.code.annotate
+    - navigation.indexes
+    - navigation.footer
+    - navigation.path
+    - toc.follow
+    - search.highlight
+    - search.share
+    - search.suggest
+
+# Extensions
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - footnotes
+  - def_list
+  - tables
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+  - attr_list
+  - md_in_html
+  - def_list
+  - meta
+
+plugins:
+  - search
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - pdf-export:
+      combined: true
+      combined_output_path: pdf/combined.pdf
+      enabled_if_env: ENABLE_PDF_EXPORT
+      exclude:
+        - index.md
+      verbose: true
+      media_type: print
+      timeout: 30
+  - redirects
+  - macros
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.aeromatplastics.com
+      name: Aeromat Plastics Website
+  generator: false  # Removes "Made with Material for MkDocs" from footer
+
+copyright: Copyright &copy; 2024 Aeromat Plastics - All rights reserved
+
+nav:
+  - Home: index.md
+  - Style Guide: style-guide.md
+  - Materials:
+    - Selection Guide: materials/selection-guide.md
+    - Performance Plastics:
+      - Overview: materials/performance/index.md
+      - PEEK: materials/performance/peek.md
+      - PPS: materials/performance/pps.md
+      - PPSU: materials/performance/ppsu.md
+      - PTFE: materials/performance/ptfe.md
+      - PAI (Torlon): materials/performance/pai.md
+      - PEI (Ultem): materials/performance/pei.md
+      - PVDF: materials/performance/pvdf.md
+      - PSU: materials/performance/psu.md
+      - PCTFE: materials/performance/pctfe.md
+      - ECTFE: materials/performance/ectfe.md
+    - Engineering Plastics:
+      - Overview: materials/engineering/index.md
+      - Nylons: materials/engineering/nylons.md
+      - PVC/CPVC: materials/engineering/pvc.md
+      - Acetals: materials/engineering/acetals.md
+      - UHMW-PE: materials/engineering/uhmw.md
+      - HDPE: materials/engineering/hdpe.md
+      - Polypropylene: materials/engineering/pp.md
+      - Polycarbonate: materials/engineering/pc.md
+      - PPO/PPE: materials/engineering/ppo.md
+    - FM4910 Materials:
+      - Overview: materials/fm4910/index.md
+      - PVC/CPVC: materials/fm4910/pvc.md
+      - PPS: materials/fm4910/pps.md
+      - PVDF: materials/fm4910/pvdf.md
+      - ECTFE: materials/fm4910/ectfe.md
+  - Applications:
+    - Semiconductor: applications/semiconductor.md
+    - Life Sciences: applications/life-sciences.md
+    - Industrial: applications/industrial.md
+  - Resources:
+    - Technical Library: resources/technical-library.md
+    - Chemical Resistance: resources/chemical-resistance.md
+    - FAQs: resources/faqs.md
+  - Support:
+    - Technical Consultation: support/consultation.md
+    - Request Quote: support/quote.md
+    - Contact: support/contact.md
+
+# Add this under the theme section
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
