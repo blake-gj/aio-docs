@@ -4,6 +4,7 @@ site_url: https://docs.aeromatplastics.com  # Update this when you have the fina
 
 theme:
   name: material
+  logo: assets/images/logo-verywhite.svg  # Path to your logo file
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
@@ -41,6 +42,9 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+
+extra_css:
+  - assets/stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
@@ -114,7 +118,7 @@ extra:
 copyright: Copyright &copy; 2024 Aeromat Plastics - All rights reserved
 
 nav:
-  - Home: index.md
+  - Home: home.md
   - Style Guide: style-guide.md
   - Materials:
     - Selection Guide: materials/selection-guide.md

@@ -1,0 +1,6 @@
+/* docs/assets/stylesheets/extra.css */
+
+/* Hide the site title */
+.md-header__topic:first-child {
+    display: none;
+}
