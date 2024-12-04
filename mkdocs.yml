@@ -17,8 +17,8 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: deep orange
+      primary: indigo 
+      accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -27,7 +27,6 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
@@ -118,50 +117,34 @@ extra:
 copyright: Copyright &copy; 2024 Aeromat Plastics - All rights reserved
 
 nav:
-  - Home: home.md
-  - Style Guide: style-guide.md
+  - Home:
+      - Overview: index.md
+      - About: about/index.md
+      - Contact: about/contact.md
+      - Style Guide: style-guide.md
   - Materials:
-    - Selection Guide: materials/selection-guide.md
-    - Performance Plastics:
-      - Overview: materials/performance/index.md
-      - PEEK: materials/performance/peek.md
-      - PPS: materials/performance/pps.md
-      - PPSU: materials/performance/ppsu.md
-      - PTFE: materials/performance/ptfe.md
-      - PAI (Torlon): materials/performance/pai.md
-      - PEI (Ultem): materials/performance/pei.md
-      - PVDF: materials/performance/pvdf.md
-      - PSU: materials/performance/psu.md
-      - PCTFE: materials/performance/pctfe.md
-      - ECTFE: materials/performance/ectfe.md
-    - Engineering Plastics:
-      - Overview: materials/engineering/index.md
-      - Nylons: materials/engineering/nylons.md
-      - PVC/CPVC: materials/engineering/pvc.md
-      - Acetals: materials/engineering/acetals.md
-      - UHMW-PE: materials/engineering/uhmw.md
-      - HDPE: materials/engineering/hdpe.md
-      - Polypropylene: materials/engineering/pp.md
-      - Polycarbonate: materials/engineering/pc.md
-      - PPO/PPE: materials/engineering/ppo.md
-    - FM4910 Materials:
-      - Overview: materials/fm4910/index.md
-      - PVC/CPVC: materials/fm4910/pvc.md
-      - PPS: materials/fm4910/pps.md
-      - PVDF: materials/fm4910/pvdf.md
-      - ECTFE: materials/fm4910/ectfe.md
-  - Applications:
-    - Semiconductor: applications/semiconductor.md
-    - Life Sciences: applications/life-sciences.md
-    - Industrial: applications/industrial.md
-  - Resources:
-    - Technical Library: resources/technical-library.md
-    - Chemical Resistance: resources/chemical-resistance.md
-    - FAQs: resources/faqs.md
-  - Support:
-    - Technical Consultation: support/consultation.md
-    - Request Quote: support/quote.md
-    - Contact: support/contact.md
+    - Overview: materials/index.md
+    - Acetal:
+      - Overview: materials/acetal/index.md
+      - Co-Polymer:
+        - Anti-Static: materials/acetal/co-polymer/anti-static.md
+        - Conductive: materials/acetal/co-polymer/conductive.md
+        - Glass-Filled: materials/acetal/co-polymer/glass-filled.md
+      - Homopolymer:
+        - Glass-Filled: materials/acetal/homopolymer/glass-filled.md
+        - PTFE-Filled: materials/acetal/homopolymer/ptfe-filled.md
+  - Design Guides:
+    - Overview: design-guides/index.md
+    - Plastic Design Guide: design-guides/plastic-design.md
+    - Fastener Design Guide: design-guides/fastener-design.md
+  - Machining:
+    - Overview: machining/index.md
+    - CNC Techniques: machining/cnc-techniques.md
+    - Machining Plastics: machining/plastics.md
+  - Welding:
+    - Overview: welding/index.md
+    - Plastic Welding Techniques: welding/plastic-techniques.md
+    - Common Welding Materials: welding/materials.md
 
 # Add this under the theme section
 extra_javascript:

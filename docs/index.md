@@ -1,53 +1,63 @@
 # Welcome to Aeromat.io
 
-Welcome to Aeromat.io, the comprehensive technical resource platform for Aeromat Plastics. Our goal is to provide OEM customers with detailed information on our high-performance and engineering plastics, applications, and support services.
+Developed by [Aeromat Plastics](https://www.aeromatplastics.com), this platform simplifies the complexities of performance plastics. It centralizes essential knowledge and tools, offering material specifications, machining, and fabrication guidance. Whether troubleshooting a design, evaluating materials, or planning a project, this resource provides practical information directly and without distractions.
 
-## Explore Our Resources
+## How to Use This Platform  
 
-- **Materials**: Discover our range of performance and engineering plastics, including detailed specifications and selection guides.
-- **Applications**: Learn about the diverse applications of our materials in industries such as semiconductor, life sciences, and industrial sectors.
-- **Resources**: Access our technical library, chemical resistance data, and frequently asked questions.
-- **Support**: Get in touch with our technical team for consultations, request quotes, or contact us for more information.
+!!! info "Getting Started"
+    Aeromat.io is designed to make finding information straightforward and intuitive. Here's how you can navigate the platform:  
 
-## About Aeromat Plastics
+    - **Search Bar:** Quickly locate specific topics or terms using the search function. 
+    - **Linked Pages:** Key terms and concepts are linked throughout the platform, so you can seamlessly move between related content.  
+    - **Sidebar Navigation:** Browse organized categories to find material specifications, machining guidance, fabrication insights, and more.  
 
-Aeromat Plastics is committed to innovation and excellence in the field of high-performance plastics. Our materials are designed to meet the rigorous demands of modern industries, ensuring reliability and efficiency.
+## Resource Categories
 
-For more information, visit our [website](https://www.aeromatplastics.com).
+### Material Resources
 
----
+- Material Properties and Specifications
+- Performance Comparisons
+- Chemical Resistance Data
+- Application Guidelines
 
-For any inquiries or support, please [contact us](support/contact.md).
+### Design Guides
 
-# Mathematical Equations Example
+- Plastic Part Design Best Practices
+- Wall Thickness and Draft Angle Guidelines
+- Thermal Considerations
+- Load and Stress Analysis
 
-## Inline Math
-When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\)
+### Machining Resources
 
-## Block Math
-The quadratic formula is:
+- General Machining Parameters
+- Surface Finishing Considerations
+- Guidelines for Tool Selection
+- Quality Control Standards
 
-$$
-x = {-b \pm \sqrt{b^2-4ac} \over 2a}
-$$
+### Fabrication Resources
 
-## Engineering Examples
+- Overview of Plastic Welding Methods
+- Adhesive Compatibility and Bonding Basics
+- Assembly Guidelines
+- Post-Processing Considerations
 
-The stress-strain relationship:
+### Use Case Considerations
 
-$$
-\sigma = E\epsilon
-$$
+- Environmental and Operational Factors
+- Material Durability and Longevity
+- Design Flexibility for Multi-Purpose Applications
+- Risk Management in Material Selection
 
-The deflection of a beam:
+### Troubleshooting and FAQs
 
-$$
-\frac{d^2y}{dx^2} = \frac{M}{EI}
-$$
+- Common Design Challenges and Solutions
+- Material Selection Considerations
+- Frequently Asked Questions
 
-Where:
+## Contact Us
 
-- \(E\) is Young's modulus
-- \(I\) is the moment of inertia
-- \(M\) is the bending moment
+For technical support or detailed inquiries about our resources:
+**Service:** [service@aeromat.io](mailto:service@aeromat.io)
+
+For new business inquiries, quotes, or sales-related questions:
+**Sales:** [sales@aeromat.io](mailto:sales@aeromat.io)
