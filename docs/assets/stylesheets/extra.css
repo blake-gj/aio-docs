@@ -14,9 +14,11 @@
     width: 65%;
 }
 
-/* Hide the site title */
-.md-header__topic:first-child {
-    display: none;
+/* Hide the site title on larger screens only */
+@media screen and (min-width: 76.25em) {
+    .md-header__topic:first-child {
+        display: none;
+    }
 }
 
 /* Tab Height Adjustments */

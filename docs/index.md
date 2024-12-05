@@ -11,48 +11,16 @@ Developed by [Aeromat Plastics](https://www.aeromatplastics.com), this platform 
     - **Linked Pages:** Key terms and concepts are linked throughout the platform, so you can seamlessly move between related content.  
     - **Sidebar Navigation:** Browse organized categories to find material specifications, machining guidance, fabrication insights, and more.  
 
-## Resource Categories
+## Core Resources
 
-### Material Resources
+### [Materials Library](materials/index.md)
+Comprehensive database of performance plastics, including material properties, specifications, and chemical resistance data.
 
-- Material Properties and Specifications
-- Performance Comparisons
-- Chemical Resistance Data
-- Application Guidelines
+### [Design & Engineering](design-guides/index.md)
+Best practices for plastic part design, thermal considerations, and structural analysis guidelines.
 
-### Design Guides
-
-- Plastic Part Design Best Practices
-- Wall Thickness and Draft Angle Guidelines
-- Thermal Considerations
-- Load and Stress Analysis
-
-### Machining Resources
-
-- General Machining Parameters
-- Surface Finishing Considerations
-- Guidelines for Tool Selection
-- Quality Control Standards
-
-### Fabrication Resources
-
-- Overview of Plastic Welding Methods
-- Adhesive Compatibility and Bonding Basics
-- Assembly Guidelines
-- Post-Processing Considerations
-
-### Use Case Considerations
-
-- Environmental and Operational Factors
-- Material Durability and Longevity
-- Design Flexibility for Multi-Purpose Applications
-- Risk Management in Material Selection
-
-### Troubleshooting and FAQs
-
-- Common Design Challenges and Solutions
-- Material Selection Considerations
-- Frequently Asked Questions
+### [Manufacturing](machining/index.md)
+Detailed guidance on machining parameters, fabrication techniques, and quality control standards.
 
 ## Contact Us
 
