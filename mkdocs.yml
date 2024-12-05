@@ -1,5 +1,5 @@
 site_name: Aeromat.io
-site_description: Technical Resource Platform for Aeromat Plastics
+site_description: Engineering Plastics Knowledge Base
 site_url: https://docs.aeromatplastics.com  # Update this when you have the final URL
 
 theme:
@@ -139,24 +139,18 @@ nav:
               - Glass-Filled: materials/acetal/homopolymer/glass-filled.md
               - PTFE-Filled: materials/acetal/homopolymer/ptfe-filled.md
           - Material Guide: materials/acetal/mg.md
-      - PVC:
-          - Type A: materials/pvc/type-a.md
-          - Type B: materials/pvc/type-b.md
-          - Material Guide: materials/pvc/index.md
+      - Acrylic:
+          - Cast: materials/acrylic/cast.md
+          - Extruded: materials/acrylic/extruded.md
+          - Impact-Modified: materials/acrylic/impact-modified.md
+          - Material Guide: materials/acrylic/index.md
       - CPVC:
           - High-Temperature: materials/cpvc/high-temperature.md
           - Material Guide: materials/cpvc/index.md
-      - PVDF:
-          - High-Purity: materials/pvdf/high-purity.md
-          - Chemical-Resistant: materials/pvdf/chemical-resistant.md
-          - Material Guide: materials/pvdf/index.md
-      - PTFE:
-          - Virgin PTFE: materials/ptfe/virgin.md
-          - Filled PTFE:
-              - Glass-Filled: materials/ptfe/filled/glass-filled.md
-              - Carbon-Filled: materials/ptfe/filled/carbon-filled.md
-              - Bronze-Filled: materials/ptfe/filled/bronze-filled.md
-          - Material Guide: materials/ptfe/index.md
+      - Nylon:
+          - Nylon 6: materials/nylon/nylon-6.md
+          - Nylon 66: materials/nylon/nylon-66.md
+          - Material Guide: materials/nylon/index.md
       - PEEK:
           - Glass-Filled: materials/peek/glass-filled.md
           - Carbon-Filled: materials/peek/carbon-filled.md
@@ -166,30 +160,36 @@ nav:
           - PET-G: materials/pet/pet-g.md
           - PET-T: materials/pet/pet-t.md
           - Material Guide: materials/pet/index.md
-      - Nylon:
-          - Nylon 6: materials/nylon/nylon-6.md
-          - Nylon 66: materials/nylon/nylon-66.md
-          - Material Guide: materials/nylon/index.md
-      - Polypropylene:
-          - Copolymer: materials/polypropylene/copolymer.md
-          - Homopolymer: materials/polypropylene/homopolymer.md
-          - Material Guide: materials/polypropylene/index.md
+      - Polycarbonate:
+          - Standard: materials/polycarbonate/standard.md
+          - UV-Stabilized: materials/polycarbonate/uv-stabilized.md
+          - Glass-Filled: materials/polycarbonate/glass-filled.md
+          - Material Guide: materials/polycarbonate/index.md
       - Polyethylene:
           - LDPE: materials/polyethylene/ldpe.md
           - HDPE: materials/polyethylene/hdpe.md
           - HMW: materials/polyethylene/hmw.md
           - UHMW: materials/polyethylene/uhmw.md
           - Material Guide: materials/polyethylene/index.md
-      - Polycarbonate:
-          - Standard: materials/polycarbonate/standard.md
-          - UV-Stabilized: materials/polycarbonate/uv-stabilized.md
-          - Glass-Filled: materials/polycarbonate/glass-filled.md
-          - Material Guide: materials/polycarbonate/index.md
-      - Acrylic:
-          - Cast: materials/acrylic/cast.md
-          - Extruded: materials/acrylic/extruded.md
-          - Impact-Modified: materials/acrylic/impact-modified.md
-          - Material Guide: materials/acrylic/index.md
+      - Polypropylene:
+          - Copolymer: materials/polypropylene/copolymer.md
+          - Homopolymer: materials/polypropylene/homopolymer.md
+          - Material Guide: materials/polypropylene/index.md
+      - PTFE:
+          - Virgin PTFE: materials/ptfe/virgin.md
+          - Filled PTFE:
+              - Glass-Filled: materials/ptfe/filled/glass-filled.md
+              - Carbon-Filled: materials/ptfe/filled/carbon-filled.md
+              - Bronze-Filled: materials/ptfe/filled/bronze-filled.md
+          - Material Guide: materials/ptfe/index.md
+      - PVC:
+          - Type A: materials/pvc/type-a.md
+          - Type B: materials/pvc/type-b.md
+          - Material Guide: materials/pvc/index.md
+      - PVDF:
+          - High-Purity: materials/pvdf/high-purity.md
+          - Chemical-Resistant: materials/pvdf/chemical-resistant.md
+          - Material Guide: materials/pvdf/index.md
   - Design Guides:
     - Overview: design-guides/index.md
     - Plastic Design Guide: design-guides/plastic-design.md
