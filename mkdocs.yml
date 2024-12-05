@@ -131,11 +131,11 @@ nav:
   - Materials:
       - Overview: materials/index.md
       - Acetal:
-          - Copolymer:
+          - Copolymer (POM-C):
               - Anti-Static: materials/acetal/copolymer/anti-static.md
               - Conductive: materials/acetal/copolymer/conductive.md
               - Glass-Filled: materials/acetal/copolymer/glass-filled.md
-          - Homopolymer:
+          - Homopolymer (Delrin®):
               - Glass-Filled: materials/acetal/homopolymer/glass-filled.md
               - PTFE-Filled: materials/acetal/homopolymer/ptfe-filled.md
           - Material Guide: materials/acetal/mg.md
@@ -180,6 +180,16 @@ nav:
           - HMW: materials/polyethylene/hmw.md
           - UHMW: materials/polyethylene/uhmw.md
           - Material Guide: materials/polyethylene/index.md
+      - Polycarbonate:
+          - Standard: materials/polycarbonate/standard.md
+          - UV-Stabilized: materials/polycarbonate/uv-stabilized.md
+          - Glass-Filled: materials/polycarbonate/glass-filled.md
+          - Material Guide: materials/polycarbonate/index.md
+      - Acrylic:
+          - Cast: materials/acrylic/cast.md
+          - Extruded: materials/acrylic/extruded.md
+          - Impact-Modified: materials/acrylic/impact-modified.md
+          - Material Guide: materials/acrylic/index.md
   - Design Guides:
     - Overview: design-guides/index.md
     - Plastic Design Guide: design-guides/plastic-design.md
