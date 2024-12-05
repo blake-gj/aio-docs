@@ -113,9 +113,15 @@ plugins:
 # Customization
 extra:
   social:
-    - icon: fontawesome/solid/globe
+    - icon: fontawesome/solid/house-chimney
       link: https://www.aeromatplastics.com
       name: Aeromat Plastics Website
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/your-profile-url
+      name: Follow us on Bluesky
+    - icon: fontawesome/solid/message
+      link: mailto:contact@aeromatplastics.com
+      name: Ask AeroGPT
   generator: false  # Removes "Made with Material for MkDocs" from footer
 
 copyright: Copyright &copy; 2024 Aeromat Plastics - All rights reserved
