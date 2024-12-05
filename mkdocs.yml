@@ -3,24 +3,25 @@ site_description: Technical Resource Platform for Aeromat Plastics
 site_url: https://docs.aeromatplastics.com  # Update this when you have the final URL
 
 theme:
+  font:
+    text: Noto Sans
+    code: Noto Sans Mono
   name: material
   logo: assets/images/logo-verywhite.svg  # Path to your logo file
   palette:
     # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue
-      accent: blue
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue 
+    - scheme: slate
+      primary: black
       accent: blue
       toggle:
         icon: material/weather-sunny
+        name: Switch to light mode
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
         name: Switch to dark mode
   features:
     - navigation.instant
@@ -128,7 +129,6 @@ nav:
   - Materials:
       - Overview: materials/index.md
       - Acetal:
-          - Material Guide: materials/acetal/index.md
           - Copolymer:
               - Anti-Static: materials/acetal/copolymer/anti-static.md
               - Conductive: materials/acetal/copolymer/conductive.md
@@ -136,47 +136,48 @@ nav:
           - Homopolymer:
               - Glass-Filled: materials/acetal/homopolymer/glass-filled.md
               - PTFE-Filled: materials/acetal/homopolymer/ptfe-filled.md
+          - Material Guide: materials/acetal/mg.md
       - PVC:
-          - Material Guide: materials/pvc/index.md
           - Type A: materials/pvc/type-a.md
           - Type B: materials/pvc/type-b.md
+          - Material Guide: materials/pvc/index.md
       - CPVC:
-          - Material Guide: materials/cpvc/index.md
           - High-Temperature: materials/cpvc/high-temperature.md
+          - Material Guide: materials/cpvc/index.md
       - PVDF:
-          - Material Guide: materials/pvdf/index.md
           - High-Purity: materials/pvdf/high-purity.md
           - Chemical-Resistant: materials/pvdf/chemical-resistant.md
+          - Material Guide: materials/pvdf/index.md
       - PTFE:
-          - Material Guide: materials/ptfe/index.md
           - Virgin PTFE: materials/ptfe/virgin.md
           - Filled PTFE:
               - Glass-Filled: materials/ptfe/filled/glass-filled.md
               - Carbon-Filled: materials/ptfe/filled/carbon-filled.md
               - Bronze-Filled: materials/ptfe/filled/bronze-filled.md
+          - Material Guide: materials/ptfe/index.md
       - PEEK:
-          - Material Guide: materials/peek/index.md
           - Glass-Filled: materials/peek/glass-filled.md
           - Carbon-Filled: materials/peek/carbon-filled.md
           - Unfilled PEEK: materials/peek/unfilled.md
+          - Material Guide: materials/peek/index.md
       - PET:
-          - Material Guide: materials/pet/index.md
           - PET-G: materials/pet/pet-g.md
           - PET-T: materials/pet/pet-t.md
+          - Material Guide: materials/pet/index.md
       - Nylon:
-          - Material Guide: materials/nylon/index.md
           - Nylon 6: materials/nylon/nylon-6.md
           - Nylon 66: materials/nylon/nylon-66.md
+          - Material Guide: materials/nylon/index.md
       - Polypropylene:
-          - Material Guide: materials/polypropylene/index.md
           - Copolymer: materials/polypropylene/copolymer.md
           - Homopolymer: materials/polypropylene/homopolymer.md
+          - Material Guide: materials/polypropylene/index.md
       - Polyethylene:
-          - Material Guide: materials/polyethylene/index.md
           - LDPE: materials/polyethylene/ldpe.md
           - HDPE: materials/polyethylene/hdpe.md
           - HMW: materials/polyethylene/hmw.md
           - UHMW: materials/polyethylene/uhmw.md
+          - Material Guide: materials/polyethylene/index.md
   - Design Guides:
     - Overview: design-guides/index.md
     - Plastic Design Guide: design-guides/plastic-design.md
