@@ -12,3 +12,6 @@ __pycache__/
 .vscode/
 .DS_Store
 *.code-workspace
+
+# Ignore local context document
+aeromat-io-context.md

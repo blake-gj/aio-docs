@@ -6,29 +6,28 @@ edit_uri: edit/gh-pages/docs/                             # Assumes your source 
 
 theme:
   name: material
+  logo: assets/images/logo-verywhite.svg  # Path to your logo file
   palette:
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
-      accent: deep orange
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue
-      accent: deep orange
+      accent: blue
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-night
         name: Switch to light mode
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue 
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
-    - navigation.sections
-    - navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
@@ -37,12 +36,19 @@ theme:
     - content.code.copy
     - content.code.annotate
     - navigation.indexes
-    - navigation.footer
     - navigation.path
     - toc.follow
     - search.highlight
     - search.share
     - search.suggest
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js  
 
 # Extensions
 markdown_extensions:
@@ -81,7 +87,7 @@ markdown_extensions:
       alternate_style: true 
   - tables
   - toc:
-      permalink: true
+      permalink: false
       title: On this page
   - attr_list
   - md_in_html
@@ -116,54 +122,74 @@ extra:
 copyright: Copyright &copy; 2024 Aeromat Plastics - All rights reserved
 
 nav:
-  - Home: index.md
-  - Style Guide: style-guide.md
+  - Home:
+      - Overview: index.md
+      - About: about/index.md
+      - Contact: about/contact.md
+      - Style Guide: style-guide.md
   - Materials:
-    - Selection Guide: materials/selection-guide.md
-    - Performance Plastics:
-      - Overview: materials/performance/index.md
-      - PEEK: materials/performance/peek.md
-      - PPS: materials/performance/pps.md
-      - PPSU: materials/performance/ppsu.md
-      - PTFE: materials/performance/ptfe.md
-      - PAI (Torlon): materials/performance/pai.md
-      - PEI (Ultem): materials/performance/pei.md
-      - PVDF: materials/performance/pvdf.md
-      - PSU: materials/performance/psu.md
-      - PCTFE: materials/performance/pctfe.md
-      - ECTFE: materials/performance/ectfe.md
-    - Engineering Plastics:
-      - Overview: materials/engineering/index.md
-      - Nylons: materials/engineering/nylons.md
-      - PVC/CPVC: materials/engineering/pvc.md
-      - Acetals: materials/engineering/acetals.md
-      - UHMW-PE: materials/engineering/uhmw.md
-      - HDPE: materials/engineering/hdpe.md
-      - Polypropylene: materials/engineering/pp.md
-      - Polycarbonate: materials/engineering/pc.md
-      - PPO/PPE: materials/engineering/ppo.md
-    - FM4910 Materials:
-      - Overview: materials/fm4910/index.md
-      - PVC/CPVC: materials/fm4910/pvc.md
-      - PPS: materials/fm4910/pps.md
-      - PVDF: materials/fm4910/pvdf.md
-      - ECTFE: materials/fm4910/ectfe.md
-  - Applications:
-    - Semiconductor: applications/semiconductor.md
-    - Life Sciences: applications/life-sciences.md
-    - Industrial: applications/industrial.md
-  - Resources:
-    - Technical Library: resources/technical-library.md
-    - Chemical Resistance: resources/chemical-resistance.md
-    - FAQs: resources/faqs.md
-  - Support:
-    - Technical Consultation: support/consultation.md
-    - Request Quote: support/quote.md
-    - Contact: support/contact.md
+      - Overview: materials/index.md
+      - Acetal:
+          - Material Guide: materials/acetal/index.md
+          - Copolymer:
+              - Anti-Static: materials/acetal/copolymer/anti-static.md
+              - Conductive: materials/acetal/copolymer/conductive.md
+              - Glass-Filled: materials/acetal/copolymer/glass-filled.md
+          - Homopolymer:
+              - Glass-Filled: materials/acetal/homopolymer/glass-filled.md
+              - PTFE-Filled: materials/acetal/homopolymer/ptfe-filled.md
+      - PVC:
+          - Material Guide: materials/pvc/index.md
+          - Type A: materials/pvc/type-a.md
+          - Type B: materials/pvc/type-b.md
+      - CPVC:
+          - Material Guide: materials/cpvc/index.md
+          - High-Temperature: materials/cpvc/high-temperature.md
+      - PVDF:
+          - Material Guide: materials/pvdf/index.md
+          - High-Purity: materials/pvdf/high-purity.md
+          - Chemical-Resistant: materials/pvdf/chemical-resistant.md
+      - PTFE:
+          - Material Guide: materials/ptfe/index.md
+          - Virgin PTFE: materials/ptfe/virgin.md
+          - Filled PTFE:
+              - Glass-Filled: materials/ptfe/filled/glass-filled.md
+              - Carbon-Filled: materials/ptfe/filled/carbon-filled.md
+              - Bronze-Filled: materials/ptfe/filled/bronze-filled.md
+      - PEEK:
+          - Material Guide: materials/peek/index.md
+          - Glass-Filled: materials/peek/glass-filled.md
+          - Carbon-Filled: materials/peek/carbon-filled.md
+          - Unfilled PEEK: materials/peek/unfilled.md
+      - PET:
+          - Material Guide: materials/pet/index.md
+          - PET-G: materials/pet/pet-g.md
+          - PET-T: materials/pet/pet-t.md
+      - Nylon:
+          - Material Guide: materials/nylon/index.md
+          - Nylon 6: materials/nylon/nylon-6.md
+          - Nylon 66: materials/nylon/nylon-66.md
+      - Polypropylene:
+          - Material Guide: materials/polypropylene/index.md
+          - Copolymer: materials/polypropylene/copolymer.md
+          - Homopolymer: materials/polypropylene/homopolymer.md
+      - Polyethylene:
+          - Material Guide: materials/polyethylene/index.md
+          - LDPE: materials/polyethylene/ldpe.md
+          - HDPE: materials/polyethylene/hdpe.md
+          - HMW: materials/polyethylene/hmw.md
+          - UHMW: materials/polyethylene/uhmw.md
+  - Design Guides:
+    - Overview: design-guides/index.md
+    - Plastic Design Guide: design-guides/plastic-design.md
+    - Fastener Design Guide: design-guides/fastener-design.md
+  - Machining:
+    - Overview: machining/index.md
+    - CNC Techniques: machining/cnc-techniques.md
+    - Machining Plastics: machining/plastics.md
+  - Welding:
+    - Overview: welding/index.md
+    - Plastic Welding Techniques: welding/plastic-techniques.md
+    - Common Welding Materials: welding/materials.md
 
-# Add this under the theme section
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 

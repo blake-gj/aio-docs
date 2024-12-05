@@ -1,0 +1,43 @@
+/* docs/assets/stylesheets/extra.css */
+
+/* Logo Sizing */
+.md-header__button.md-logo {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    height: 65%;
+    width: 65%;
+}
+
+/* Hide the site title on larger screens only */
+@media screen and (min-width: 76.25em) {
+    .md-header__topic:first-child {
+        display: none;
+    }
+}
+
+/* Tab Height Adjustments */
+.md-tabs {
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.md-tabs__link {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Adjust main content padding to match new tab height */
+.md-main__inner {
+    padding-top: 0.5rem;
+}
+
+/* Adjust sidebar position for fixed tabs */
+.md-sidebar[data-md-state="lock"] {
+    top: 7rem;
+}
