@@ -40,13 +40,6 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
-  icon:
-    repository: false  # Removes the repository icon
-  repository:
-    icon: false       # Alternative way to remove the icon
-
-repo_url: ''          # Empty string removes the repository link
-repo_name: ''         # Empty string removes the repository name
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -126,6 +119,8 @@ extra:
   generator: false  # Removes "Made with Material for MkDocs" from footer
 
 copyright: Copyright &copy; 2024 Aeromat Plastics - All rights reserved
+
+repo_url: ''
 
 nav:
   - Home:
