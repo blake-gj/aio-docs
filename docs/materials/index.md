@@ -1,24 +1,34 @@
-# Placeholder Page 1
+# Materials Library
 
-## Under Construction
+## Overview
+The Aeromat.io materials library provides comprehensive technical data and engineering guidance for performance plastics. Each material page is structured to support informed decision-making in design, sourcing, and manufacturing processes.
 
-This page is currently under construction. Please check back later for more updates.
+## Material Data Pages
 
-## About This Section
+Every material entry includes:
+- Physical and mechanical properties with ASTM test methods
+- Thermal and electrical characteristics
+- Chemical resistance data
+- Design considerations and limitations
+- Processing guidelines
+- Compliance and certification information
+- Storage and handling requirements
 
-This section will provide detailed information on the following topics:
+## Data Usage
 
-- Topic 1: Description of what will be covered.
-- Topic 2: Description of what will be covered.
-- Topic 3: Description of what will be covered.
+While we maintain high standards for accuracy, material properties can vary between manufacturers and grades. The data provided represents typical values and should be used for initial material selection and general engineering guidance. Critical applications should always verify specific grade properties with the material manufacturer.
 
-## Contact Us
+Material performance can be significantly affected by:
+- Processing conditions
+- Environmental factors
+- Operating temperature
+- Chemical exposure
+- Loading conditions
+- Part geometry
 
-For any inquiries or support, please [contact us](mailto:support@aeromat.io).
+## Technical Support
 
-## Navigation
-
-- [Home](index.md)
-- [About](about/index.md)
-- [Contact](contact/index.md)
-- [Style Guide](style-guide.md)
+For assistance with material selection or technical questions:
+- Contact our engineering team at service@aeromat.io
+- Reference material-specific design guides
+- Consult machining and fabrication guidelines
