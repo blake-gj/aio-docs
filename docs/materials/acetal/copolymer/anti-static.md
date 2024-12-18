@@ -100,6 +100,17 @@ Anti-static acetal copolymer maintains similar chemical resistance to standard P
     - Surface contamination may impact static dissipative properties
     - Not recommended for applications requiring high impact resistance at low temperatures
 
+!!! abstract "Data Disclaimer"
+    The material property values provided in this document represent typical values obtained from standardized test methods and are provided for reference purposes only. Actual performance may vary based on:
+    
+    - Specific grade and manufacturer
+    - Processing conditions and methods
+    - Environmental conditions
+    - Part design and geometry
+    - Application requirements
+    
+    Critical applications should always verify specific grade properties with the material manufacturer. While we strive to maintain accuracy, this data should not be used for detailed design specifications without independent verification. The user assumes all responsibility for determining the suitability of the material for their specific application.
+    
 ---
 *Last updated: December 18, 2024*
 *Document version: 1.0*
