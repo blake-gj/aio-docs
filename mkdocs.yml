@@ -138,10 +138,12 @@ nav:
       - Overview: materials/index.md
       - Acetal:
           - Copolymer (POM-C):
+              - Acetal-Copolymer: materials/acetal/copolymer/acetal-copolymer.md
               - Anti-Static: materials/acetal/copolymer/anti-static.md
               - Conductive: materials/acetal/copolymer/conductive.md
               - Glass-Filled: materials/acetal/copolymer/glass-filled.md
           - Homopolymer (Delrin®):
+              - Acetal-Homopolymer: materials/acetal/homopolymer/acetal-homopolymer.md
               - Glass-Filled: materials/acetal/homopolymer/glass-filled.md
               - PTFE-Filled: materials/acetal/homopolymer/ptfe-filled.md
           - Material Guide: materials/acetal/mg.md
