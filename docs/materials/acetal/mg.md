@@ -84,7 +84,7 @@ Each type offers modified grades including:
   - Precision components
   - High-load bearing parts
   - Spring elements and snap-fits
-- [Detailed Specifications](materials/acetal/homopolymer/index.md)
+- [Detailed Specifications](materials/acetal/homopolymer/acetal-homopolymer.md)
 
 ### Copolymer (POM-C)
 - Key advantages:
@@ -100,7 +100,7 @@ Each type offers modified grades including:
   - Chemical exposure environments
   - General purpose components
   - Cost-sensitive applications
-- [Detailed Specifications](materials/acetal/copolymer/index.md)
+- [Detailed Specifications](materials/acetal/copolymer/acetal-copolymer.md)
 
 ## Common Modifications
 
